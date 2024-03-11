@@ -1,0 +1,90 @@
+body{
+    background: #C3CAD1;
+}
+
+aside{
+    float: left;
+    background: #2E547C;
+    width: 20%;
+    padding: 2.5%;
+    height: 200%;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+}
+
+aside img{
+    width: 80px;
+    float: left;
+}
+
+aside .logo{
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: semi-bold;
+    position: relative;
+    top: 13px;
+    right: 10px;
+}
+
+aside h3{
+    margin-top: 25px;
+    font-size: 25px;
+    position: relative;
+    right: -10px;
+}
+
+aside ul {
+    position:relative;
+    right: 20px;
+    list-style: none;
+}
+
+aside ul li{
+    color: #fff;
+    display: block;
+    margin-top: 5px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #8785A2;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+
+main .features{
+    color: #fff;
+    text-align: center;
+}
+
+main .features h1{
+    font-size: 50px;
+    color: #2E547C;
+
+}
+
+main .features p{
+    max-width:600px;
+    margin: 20px auto;
+    position:relative;
+    text-align: center;
+    right: -150px;
+}
+
+
+.alert-warning{
+    width: 60%;
+    margin: 20px 34%;
+    text-align: left;
+}
+
+.alert-p{
+    width: 200px;
+    text-align:left;
+}
+
+.form-control{
+    width: 60%;
+    margin: 20px auto;
+}

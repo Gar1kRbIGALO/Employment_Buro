@@ -1,0 +1,19 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Вакансии на сайте{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Вакансии на сайте</h1>
+
+
+        {% for el in news %}
+            <div class="alert alert-warning">
+                <h3>{{ el.title }}</h3>
+                <p class="alert-p">Описание: {{ el.description }}</p>
+                <a href="{% url 'vacancy-detail' el.id %}" class="btn btn-warning">Ознакомиться</a>
+            </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}

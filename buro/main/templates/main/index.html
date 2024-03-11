@@ -1,0 +1,17 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% load static %}
+
+{% block content %}
+    <div class="features">
+        <h1>{{ title|upper }}</h1>
+        <p>Добро пожаловать в бюро по трудоустройству!<br>
+        Здесь мы вам поможем найти работу вам по душе!</p>
+
+
+         <img src="{% static 'main/awesome/img/muziki.jpeg' %}" alt="Мужики" style="block-size: 60%;"><br><br>
+        <a href="{% url 'about' %}"><button class="btn btn-warning">На страницу про нас</button></a><br><br>
+    </div>
+{% endblock %}
